@@ -21,7 +21,6 @@ export interface AppState {
     reviews: number;
     books: Book[];
     page: number;
-    hasMore: boolean;
     view: View;
 }
 

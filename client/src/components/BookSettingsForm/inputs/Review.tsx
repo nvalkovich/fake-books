@@ -15,7 +15,6 @@ const Review = () => (
     >
         <InputNumber<number>
             style={SETTINGS_INPUT_STYLE}
-            defaultValue={MIN_INPUT_VALUE}
             min={MIN_INPUT_VALUE}
             max={MAX_REVIEW}
             step={INPUT_STEP}

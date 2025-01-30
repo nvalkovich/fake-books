@@ -13,7 +13,7 @@ const BookTable = ({ books, onNext }: BookTableProps) => {
     return (
         <InfiniteScroll dataLength={books.length} next={onNext}>
             <Table
-                style={{ maxWidth: 1000, width: '100%' }}
+                style={{ width: 1000 }}
                 rowKey="isbn"
                 dataSource={books}
                 columns={columns}

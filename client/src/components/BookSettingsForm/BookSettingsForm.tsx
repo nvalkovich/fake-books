@@ -34,6 +34,7 @@ export const BookSettingsForm = ({
             layout="vertical"
             initialValues={settings}
             onValuesChange={(_, values) => onChange(values)}
+           
         >
             <Flex gap="middle" align="start" justify="center" vertical={false}>
                 <Language />
