@@ -47,11 +47,11 @@ const App = () => {
     };
 
     const handleSeedRefresh = () => {
-        setState((s) => ({ ...s, seed: getRandomValue(), page: 1 }));
+        setState((s) => ({ ...s, seed: getRandomValue(), page: FIRST_PAGE }));
     };
 
     const handleViewOnChange = (view: View) => {
-        setState((s) => ({ ...s, view: view, page: 1 }));
+        setState((s) => ({ ...s, view: view, page: FIRST_PAGE }));
     };
 
     return (

@@ -40,13 +40,13 @@ export enum View {
 export enum Langs {
     en = 'en',
     lv = 'lv',
-    ko = 'ko',
+    es_MX = 'es_MX',
 }
 
 export enum LangLabels {
     en = 'English',
     lv = 'Latvian',
-    ko = 'Korean',
+    es_MX = 'Spanish (Mexico)',
 }
 
 export enum Errors {

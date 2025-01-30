@@ -1,7 +1,7 @@
-import { Book } from '../../../types.ts';
-import { Card, Col, Flex, List, Row, Tag, Typography } from 'antd';
-import { LikeOutlined } from '@ant-design/icons';
+import { Book, NumberToShowTypes } from '../../../types.ts';
+import { Card, Col, Flex, List, Row, Typography } from 'antd';
 import { BookImage } from './BookImage.tsx';
+import NumberToShow from '../../NumberToShow/NumberToShow.tsx';
 
 const { Paragraph, Title } = Typography;
 
@@ -16,13 +16,10 @@ export const BookInfo = ({ book }: BookInfoProps) => {
             <Col span={6} style={{ padding: 15 }}>
                 <Flex vertical align="center">
                     <BookImage book={book} />
-                    <Tag
-                        icon={<LikeOutlined />}
-                        color="#108ee9"
-                        style={{ fontSize: 16, padding: 5 }}
-                    >
-                        {likes.toString()}
-                    </Tag>
+                    <NumberToShow
+                        type={NumberToShowTypes.like}
+                        number={likes}
+                    />
                 </Flex>
             </Col>
             <Col span={18}>

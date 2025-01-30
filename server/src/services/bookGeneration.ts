@@ -38,7 +38,7 @@ export const generateBook = (
   return {
     isbn: faker.string.uuid(),
     title: capitalize(faker.lorem.words(faker.number.int({ min: 1, max: 3 }))),
-    authors: faker.person.fullName(),
+    authors: generateAuthors(faker).toString(),
     publisher: faker.company.name(),
     year: faker.date.past({ years: 20 }).getFullYear(),
     image: faker.image.urlLoremFlickr({ width: 300, height: 350 }),
@@ -47,15 +47,15 @@ export const generateBook = (
   };
 };
 
-// const generateAuthors = (faker: any): string => {
-//   const numberOfAuthors = faker.number.int({ min: 1, max: 2 });
-//
-//   const authors = Array.from({ length: numberOfAuthors }, () =>
-//     faker.person.fullName(),
-//   );
-//
-//   return authors.join(", ");
-// };
+const generateAuthors = (faker: any): string => {
+  const numberOfAuthors = faker.number.int({ min: 1, max: 2 });
+
+  const authors = Array.from({ length: numberOfAuthors }, () =>
+    faker.person.fullName(),
+  );
+
+  return authors.join(", ");
+};
 
 export const generateLikes = (faker: Faker, likes: number): number => {
   const generateLike = () => 1;

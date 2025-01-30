@@ -28,8 +28,8 @@ app.get(booksRoute, (req: Request, res: Response) => {
       Number(reviews),
     );
     return res.json(books);
-  } catch (ex) {
-    console.error(ex);
+  } catch (error) {
+    console.error(error);
     return res
       .status(StatusCodes.internalServerError)
       .json({ error: Errors.generatingBooks });
