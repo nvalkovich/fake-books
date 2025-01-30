@@ -13,6 +13,7 @@ app.use(express.json());
 const staticFilesPath = path.join(__dirname, "../../client/dist");
 app.use(express.static(staticFilesPath));
 
+
 app.get(apiBooksRoute, (req: Request, res: Response) => {
   const { seed, page, lang, likes, reviews } = req.query;
 

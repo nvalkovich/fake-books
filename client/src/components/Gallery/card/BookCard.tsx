@@ -15,9 +15,13 @@ const cardStyle = {
     overflow: 'hidden',
 };
 
-const BookCard = (book: Book) => {
+interface BookCardProps {
+    book: Book;
+}
+
+const BookCard = (data: BookCardProps) => {
     const { image, title, authors, publisher, year, isbn, likes, reviews } =
-        book;
+        data.book;
 
     return (
         <Card

@@ -12,6 +12,10 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "types": ["vite/client"],
     "typeRoots": ["./node_modules/@types", "./src/types", "./node_modules"],
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
   "include": ["src", "vite-env.d.ts"]
 }
+
+
