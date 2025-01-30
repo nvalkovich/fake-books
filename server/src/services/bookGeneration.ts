@@ -41,8 +41,12 @@ export const generateBook = (
     authors: generateAuthors(faker).toString(),
     publisher: faker.company.name(),
     year: faker.date.past({ years: 20 }).getFullYear(),
-    image: faker.image.urlLoremFlickr({ width: 300, height: 350 }),
-    likes: generateLikes(faker, likes),
+    image: faker.image.urlLoremFlickr({
+      width: 300,
+      height: 350,
+      category: "",
+    }),
+    likes: generateLikes(likes),
     reviews: generateReviews(faker, reviews),
   };
 };
@@ -57,7 +61,7 @@ const generateAuthors = (faker: any): string => {
   return authors.join(", ");
 };
 
-export const generateLikes = (faker: Faker, likes: number): number => {
+export const generateLikes = (likes: number): number => {
   const generateLike = () => 1;
 
   const likeGenerator = times(likes, (likesCount: number) => {

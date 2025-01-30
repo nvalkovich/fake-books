@@ -2,7 +2,7 @@ import { Card } from 'antd';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Book, NumberToShowTypes } from '../../../types';
 import LazyImage from '../../LazyImage/LazyImage';
-import NumberToShow from '../../NumberToShow/NumberToShow.tsx';
+import NumberToShow from '../../NumberToShow/NumberToShow';
 
 const imageStyle: React.CSSProperties = {
     width: '100%',

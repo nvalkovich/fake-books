@@ -1,7 +1,7 @@
-import { Book, NumberToShowTypes } from '../../../types.ts';
+import { Book, NumberToShowTypes } from '../../../types';
 import { Card, Col, Flex, List, Row, Typography } from 'antd';
-import { BookImage } from './BookImage.tsx';
-import NumberToShow from '../../NumberToShow/NumberToShow.tsx';
+import { BookImage } from './BookImage';
+import NumberToShow from '../../NumberToShow/NumberToShow';
 
 const { Paragraph, Title } = Typography;
 

@@ -16,8 +16,8 @@ const BookGallery = ({ books, onNext }: BookGalleryProps) => {
                     <Flex gap="middle" wrap="wrap" justify="center">
                         {books.map((book) => (
                             <BookCard
-                                key={`${book.isbn}-${book.likes}`}
-                                {...book}
+                                key={`${book.isbn}-${book.likes}-${book.reviews}`}
+                                book={book}
                             />
                         ))}
                     </Flex>

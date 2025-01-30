@@ -1,6 +1,6 @@
 import { AppstoreOutlined, TableOutlined } from '@ant-design/icons';
 import { Space, Switch } from 'antd';
-import { View } from '../../types.ts';
+import { View } from '../../types';
 
 interface ViewSwitchProps {
     view: View;

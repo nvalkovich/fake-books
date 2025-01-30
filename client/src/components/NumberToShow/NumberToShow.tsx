@@ -1,6 +1,6 @@
 import { Tag } from 'antd';
 import { LikeOutlined, FormOutlined } from '@ant-design/icons';
-import { NumberToShowTypes } from '../../types.ts';
+import { NumberToShowTypes } from '../../types';
 
 interface NumberToShowProps {
     type: NumberToShowTypes;
@@ -9,6 +9,7 @@ interface NumberToShowProps {
 
 const NumberToShow = (data: NumberToShowProps) => {
     const { type, number } = data;
+
     return (
         <Tag
             icon={

@@ -3,11 +3,11 @@ import BookTable from './components/BookTable/BookTable';
 import { AppState, BookSettings, Langs, View } from './types';
 import { fetchBooks } from './services/bookService';
 import { Col, Flex, Row } from 'antd';
-import { getRandomValue } from './utls/seed.ts';
+import { getRandomValue } from './utls/seed';
 import { BookSettingsForm } from './components/BookSettingsForm/BookSettingsForm';
 import { BooksDownload } from './components/BooksDownload/BooksDownload';
-import ViewSwitch from './components/ViewSwitch/ViewSwitch.tsx';
-import BookGallery from './components/Gallery/BookGallery.tsx';
+import ViewSwitch from './components/ViewSwitch/ViewSwitch';
+import BookGallery from './components/Gallery/BookGallery';
 
 export const FIRST_PAGE = 1;
 

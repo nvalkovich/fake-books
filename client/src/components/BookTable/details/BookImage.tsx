@@ -1,5 +1,5 @@
-import { Book } from '../../../types.ts';
-import LazyImage from '../../LazyImage/LazyImage.tsx';
+import { Book } from '../../../types';
+import LazyImage from '../../LazyImage/LazyImage';
 
 const textStyle: React.CSSProperties = {
     left: 0,
