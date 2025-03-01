@@ -23,7 +23,7 @@ const BookTable = memo(({ books, onNext, isFetching, hasMore }: BookTableProps) 
             dataLength={books.length}
             next={handleNext}
             hasMore={hasMore && !isFetching}
-             isFetching={isFetching} // 
+            isFetching={isFetching}
         >
             <Table
                 rowKey="isbn"
