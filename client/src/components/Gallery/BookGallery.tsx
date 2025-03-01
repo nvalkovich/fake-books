@@ -5,14 +5,16 @@ import InfiniteScroll from '../InfiniteScroll/InfiniteScroll';
 
 interface BookGalleryProps {
     books: Book[];
+    hasMore: boolean;
     onNext: () => void;
+    isFetching: boolean;
 }
 
-const BookGallery = ({ books, onNext }: BookGalleryProps) => {
+const BookGallery = ({ books, hasMore, onNext, isFetching }: BookGalleryProps) => {
     return (
         <Flex justify="center" style={{ width: '100%' }}>
             <div style={{ maxWidth: 1000, width: '100%' }}>
-                <InfiniteScroll dataLength={books.length} next={onNext}>
+                <InfiniteScroll dataLength={books.length} hasMore={hasMore} next={onNext}  isFetching={isFetching} >
                     <Flex gap="middle" wrap="wrap" justify="center">
                         {books.map((book) => (
                             <BookCard

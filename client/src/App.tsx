@@ -7,7 +7,7 @@ import { BookSettingsForm } from './components/BookSettingsForm/BookSettingsForm
 import { BooksDownload } from './components/BooksDownload/BooksDownload';
 import ViewSwitch from './components/ViewSwitch/ViewSwitch';
 import BookGallery from './components/Gallery/BookGallery';
-import { useBooksPages } from './usePagination';
+import { useBooksPages } from './hooks/useBooksPages';
 
 export const FIRST_PAGE = 1;
 
@@ -17,12 +17,11 @@ const App = () => {
         lang: Langs.en,
         likes: 0,
         reviews: 0,
-        books: [],
         page: FIRST_PAGE,
         view: View.table,
     });
 
-    const { books, loadNext} = useBooksPages(state);
+    const { books, loadNext, isFetching, hasMore } = useBooksPages(state);
 
     const handleSettingsChange = (settings: BookSettings) => {
         setState((s) => ({ ...s, ...settings }));
@@ -57,14 +56,19 @@ const App = () => {
                             view={state.view}
                             onChange={handleViewOnChange}
                         />
-                        <BooksDownload books={state.books} />
+                        <BooksDownload books={books} />
                     </Flex>
                 </Col>
             </Row>
             {state.view === View.table ? (
-                <BookTable books={books} onNext={loadNext} />
+                <BookTable
+                    books={books}
+                    onNext={loadNext}
+                    isFetching={isFetching}
+                    hasMore={hasMore}
+                />
             ) : (
-                <BookGallery books={books} onNext={loadNext} />
+                <BookGallery books={books} onNext={loadNext} isFetching={isFetching}  hasMore={hasMore}/>
             )}
         </Flex>
     );

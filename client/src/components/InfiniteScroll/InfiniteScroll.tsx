@@ -6,28 +6,20 @@ import { resources } from '../../resources/resources';
 
 export type InfiniteScrollProps = Pick<
     ReactInfiniteScrollProps,
-    'dataLength' | 'next' | 'children'
->;
+    'dataLength' | 'next' | 'children' | 'hasMore'
+> & { isFetching: boolean }; 
 
-const InfiniteScroll = ({ children, ...restProps }: InfiniteScrollProps) => {
+const InfiniteScroll = ({ children, hasMore, next, isFetching, ...restProps }: InfiniteScrollProps) => {
     return (
         <ReactInfiniteScroll
             {...restProps}
-            hasMore={true}
+            hasMore={hasMore}
+            next={isFetching || !hasMore ? () => {} : next}
+            scrollThreshold={0.9}
             loader={
-                <Flex
-                    style={{ padding: 20 }}
-                    gap="middle"
-                    align="start"
-                    justify="center"
-                >
+                <Flex style={{ padding: 20 }} gap="middle" align="center" justify="center">
                     <Spin size="large" />
                 </Flex>
-            }
-            endMessage={
-                <p style={{ textAlign: 'center' }}>
-                    <b>{resources.scrollEnd}</b>
-                </p>
             }
         >
             {children}

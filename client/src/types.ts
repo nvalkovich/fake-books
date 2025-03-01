@@ -19,7 +19,6 @@ export interface AppState {
     lang: string;
     likes: number;
     reviews: number;
-    books: Book[];
     page: number;
     view: View;
 }
