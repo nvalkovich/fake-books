@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64b1f8b0-025d-4ca1-838b-d4d785af1f8e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nvalkovich&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nvalkovich/fake-books.git&quot;,
+    &quot;accountId&quot;: &quot;b22cd0cd-ad9d-4d30-af48-04e41bdcbfd5&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sGqMhYVZICvVCIUCYnrX7sCxyD" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.index.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/fake-books/fake-books/client/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "npm.start.executor": "Debug",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Admin\\Desktop\\fake-books\\fake-books\\client\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Users\\Admin\\Desktop\\fake-books\\fake-books\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\fake-books\fake-books\client\src\components\BookTable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\fake-books\fake-books\client\src\components\numbersToShow" />
+      <recent name="C:\Users\Admin\Desktop\fake-books\fake-books\client\src\components\BookTable\details" />
+      <recent name="C:\Users\Admin\Desktop\fake-books\fake-books\client\src\components\numbersToShow\ReviewsNumber" />
+      <recent name="C:\Users\Admin\Desktop\fake-books\fake-books\client\src\components\numbersToShow\LikesNumber" />
+      <recent name="C:\Users\Admin\Desktop\fake-books\fake-books\client\src\components\Gallery\BookCard" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64b1f8b0-025d-4ca1-838b-d4d785af1f8e" name="Changes" comment="" />
+      <created>1738092216438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738092216438</updated>
+      <workItem from="1738092216883" duration="18746000" />
+      <workItem from="1738138636930" duration="2147000" />
+      <workItem from="1738141404433" duration="7039000" />
+      <workItem from="1738151681907" duration="26318000" />
+      <workItem from="1738186466409" duration="23552000" />
+      <workItem from="1738211584271" duration="1858000" />
+      <workItem from="1738213617651" duration="2613000" />
+      <workItem from="1738216403317" duration="15357000" />
+      <workItem from="1738244421087" duration="12913000" />
+      <workItem from="1738260054378" duration="315000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: implement server, implement books generation">
+      <option name="closed" value="true" />
+      <created>1738112080076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738112080077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: implement ui">
+      <option name="closed" value="true" />
+      <created>1738220027025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738220027025</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: implement ui">
+      <option name="closed" value="true" />
+      <created>1738223554501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738223554501</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add some generating and view changes,&#10;refactor: refactor code">
+      <option name="closed" value="true" />
+      <created>1738225741815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738225741815</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: refactor code">
+      <option name="closed" value="true" />
+      <created>1738255876859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738255876860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor: refactor code">
+      <option name="closed" value="true" />
+      <created>1738256644746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738256644746</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: refactor code">
+      <option name="closed" value="true" />
+      <created>1738256771227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738256771227</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor: refactor code">
+      <option name="closed" value="true" />
+      <created>1738257580539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738257580539</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: refactor code">
+      <option name="closed" value="true" />
+      <created>1738257599693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738257599693</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/client/src/types.js" />
+        <option value="$PROJECT_DIR$/client/src/constants.js" />
+        <option value="$PROJECT_DIR$/client/src/main.js" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/client/src/resources/resources.js" />
+        <option value="$PROJECT_DIR$/client/src/components/NumberToShow/NumberToShow.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Gallery/card/BookCard.js" />
+        <option value="$PROJECT_DIR$/client/src/services/bookService.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Gallery/BookGallery.js" />
+        <option value="$PROJECT_DIR$/client/src/components/LazyImage/LazyImage.js" />
+        <option value="$PROJECT_DIR$/client/src/components/ViewSwitch/ViewSwitch.js" />
+        <option value="$PROJECT_DIR$/client/src/components/BookTable/details/BookImage.js" />
+        <option value="$PROJECT_DIR$/client/src/components/BookTable/details/BookInfo.js" />
+        <option value="$PROJECT_DIR$/client/src/utls/seed.js" />
+        <option value="$PROJECT_DIR$/client/src/components/NumberToShow/NumberToShow.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/Gallery/card/BookCard.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/LazyImage/LazyImage.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/ViewSwitch/ViewSwitch.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/BookTable/details/BookImage.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/BookTable/details/BookInfo.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/constants.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/App.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/main.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/types.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/utls/seed.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/services/bookService.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/resources/resources.d.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/Gallery/BookGallery.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: implement server, implement books generation" />
+    <MESSAGE value="feat: implement ui" />
+    <MESSAGE value="feat: add some generating and view changes,&#10;refactor: refactor code" />
+    <MESSAGE value="refactor: refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: refactor code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/services/bookService.ts</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/components/Gallery/BookGallery.tsx</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/src/index.ts</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/src/utils/helpers.ts</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/src/services/bookGeneration.ts</url>
+          <line>21</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

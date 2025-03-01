@@ -1,0 +1,312 @@
+[
+  {
+    "isbn": "52f72b4d-e9c8-47cd-b477-75f020d3ea10",
+    "title": "Ratione modi",
+    "author": "Luan Klapper",
+    "publisher": "Wehrsen, Ernst und Vater",
+    "year": 2020,
+    "image": "https://loremflickr.com/993/1316/book?lock=1098347303371704",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Quis velit natus incidunt omnis cumque et autem provident culpa.",
+        "author": "Prof. Dr. Nelly Tillack"
+      },
+      {
+        "review": "Perspiciatis sequi cupiditate est possimus itaque est.",
+        "author": "Dina Urbansky"
+      },
+      {
+        "review": "Impedit atque eligendi aliquam numquam facere nam quis incidunt quod.",
+        "author": "Liam Fietz"
+      },
+      {
+        "review": "A minima pariatur ad ex commodi pariatur sint.",
+        "author": "Henriette Kozakiewicz"
+      },
+      {
+        "review": "Pariatur laudantium possimus placeat eos illum fugiat.",
+        "author": "Giada Grüner"
+      }
+    ]
+  },
+  {
+    "isbn": "bed36f89-3e30-450e-a0b1-41a23d96e9d0",
+    "title": "Fuga blanditiis",
+    "author": "Fynn Dittmann",
+    "publisher": "Kaiser Gruppe",
+    "year": 2018,
+    "image": "https://loremflickr.com/1496/3528/book?lock=1847064472441930",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Inventore nulla et explicabo.",
+        "author": "Elly Schwarzmeier"
+      },
+      {
+        "review": "Praesentium maiores sint eius minus nemo eius ipsa.",
+        "author": "Jaden Lippe"
+      },
+      {
+        "review": "Architecto laborum ipsum.",
+        "author": "Eileen Adams"
+      },
+      {
+        "review": "Nostrum tenetur autem.",
+        "author": "Annie Klaus"
+      },
+      {
+        "review": "Ipsa delectus impedit dolores ducimus eos sequi ad.",
+        "author": "Kiana Pohl"
+      }
+    ]
+  },
+  {
+    "isbn": "9445dc49-2543-426f-8abf-59de9806a544",
+    "title": "Distinctio voluptate perspiciatis",
+    "author": "Liah Balnuweit",
+    "publisher": "Deckert-Brandt",
+    "year": 2018,
+    "image": "https://loremflickr.com/1600/1102/book?lock=4832728921795032",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Architecto asperiores deleniti amet iure tempore voluptas enim sit.",
+        "author": "Tizian Stengel"
+      },
+      {
+        "review": "Sunt repudiandae officiis nam iste ipsa consequatur.",
+        "author": "Dana Jamrozy"
+      },
+      {
+        "review": "Quos fugiat atque.",
+        "author": "Johannes Kutscherauer"
+      },
+      {
+        "review": "Excepturi numquam velit.",
+        "author": "Lucy Schwarzkopf"
+      },
+      {
+        "review": "Iusto maxime atque.",
+        "author": "Etienne Haschke"
+      }
+    ]
+  },
+  {
+    "isbn": "ea59c60c-40ea-41ba-9aba-bbf0e231ae1c",
+    "title": "Inventore laudantium quidem",
+    "author": "Valeria Kurschilgen",
+    "publisher": "Mathiszik-Kosenkow",
+    "year": 2025,
+    "image": "https://loremflickr.com/204/2823/book?lock=4566318310663909",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Necessitatibus ullam beatae omnis dolorem.",
+        "author": "Mara Karrass"
+      },
+      {
+        "review": "Voluptatum aperiam error aspernatur alias reiciendis expedita illum sapiente consequuntur.",
+        "author": "Burak Marx"
+      },
+      {
+        "review": "Deleniti neque id rem harum unde atque illo.",
+        "author": "Karina Goy"
+      },
+      {
+        "review": "Ab id facere id.",
+        "author": "Arda Schreiber"
+      },
+      {
+        "review": "Id recusandae adipisci similique.",
+        "author": "Tamara Konieczny"
+      }
+    ]
+  },
+  {
+    "isbn": "71b7feb7-fb01-4255-b000-51832723339c",
+    "title": "Aspernatur voluptas",
+    "author": "Herr Matti Heist",
+    "publisher": "Sören-Röttger",
+    "year": 2021,
+    "image": "https://loremflickr.com/837/3511/book?lock=4288223757097226",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Reprehenderit earum ipsam.",
+        "author": "Jil Strohschank"
+      },
+      {
+        "review": "Eius error ipsam dicta minima sint.",
+        "author": "Marlena Streller"
+      },
+      {
+        "review": "Veniam aliquid iusto inventore hic.",
+        "author": "Viktor Salzer"
+      },
+      {
+        "review": "Corrupti totam neque.",
+        "author": "Jella Bienias"
+      },
+      {
+        "review": "Recusandae praesentium nostrum minima necessitatibus odio amet esse.",
+        "author": "Prof. Dr. Andre Voigt"
+      }
+    ]
+  },
+  {
+    "isbn": "66d82384-d772-43ce-9d37-1cef803f8d13",
+    "title": "Animi illo placeat ipsa",
+    "author": "Bo Kruger",
+    "publisher": "Herweg-Bräutigam",
+    "year": 2024,
+    "image": "https://loremflickr.com/1732/2255/book?lock=6063993553926968",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Mollitia quisquam nostrum veritatis.",
+        "author": "Albert Güldemeister"
+      },
+      {
+        "review": "Fuga enim magni officiis aperiam voluptate sequi illum.",
+        "author": "Isabell Hetzler"
+      },
+      {
+        "review": "Hic facere quia ab nesciunt sunt neque ratione.",
+        "author": "Abdullah Koderisch"
+      },
+      {
+        "review": "Aliquam earum veritatis doloribus.",
+        "author": "Henrike Gottschalk"
+      },
+      {
+        "review": "Aliquid nemo nesciunt.",
+        "author": "Dr. Piet Köhre"
+      }
+    ]
+  },
+  {
+    "isbn": "6114314c-41d2-4cb7-9912-b968429a88f8",
+    "title": "Dignissimos necessitatibus eligendi",
+    "author": "Nadine Siebel",
+    "publisher": "Garatva, Geissler und Schmitt",
+    "year": 2019,
+    "image": "https://loremflickr.com/1790/3025/book?lock=240120267339802",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Ut perferendis alias.",
+        "author": "Frau Amalia Buder"
+      },
+      {
+        "review": "Quis deleniti nisi dicta rerum eum sapiente.",
+        "author": "Nicolas Böhm"
+      },
+      {
+        "review": "Voluptas accusantium reprehenderit ut doloribus hic neque praesentium odio ipsam.",
+        "author": "Dr. Ivonne Leiwesmeier"
+      },
+      {
+        "review": "Laudantium atque quia cumque pariatur praesentium.",
+        "author": "Lilli Seitz"
+      },
+      {
+        "review": "Maxime error consectetur inventore architecto exercitationem nostrum sequi.",
+        "author": "Madeleine Pletsch"
+      }
+    ]
+  },
+  {
+    "isbn": "052f343f-45d7-4e8a-af1d-4955d0cf01b8",
+    "title": "Dolorum expedita exercitationem cupiditate",
+    "author": "Eddy Burger",
+    "publisher": "Flottmann KG",
+    "year": 2023,
+    "image": "https://loremflickr.com/1222/1226/book?lock=1197199618136573",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Quasi nulla ex numquam placeat cupiditate natus.",
+        "author": "Lean Sehls"
+      },
+      {
+        "review": "Error eligendi ipsa illo eveniet inventore voluptatem quidem corrupti.",
+        "author": "Kira Seibold"
+      },
+      {
+        "review": "Tempore architecto mollitia animi similique exercitationem illum ipsam iste.",
+        "author": "Taylor Balzer"
+      },
+      {
+        "review": "Dolorem commodi porro quis explicabo illo illo tenetur blanditiis.",
+        "author": "John Knobel"
+      },
+      {
+        "review": "Maiores eligendi aliquid ipsum ducimus nobis molestias similique.",
+        "author": "Finnja Bräutigam"
+      }
+    ]
+  },
+  {
+    "isbn": "3dcaa68a-0241-461a-b917-6bb7292afbd1",
+    "title": "Excepturi delectus nihil",
+    "author": "Alica Gotthardt",
+    "publisher": "Wyludda-Huhn",
+    "year": 2024,
+    "image": "https://loremflickr.com/1817/1682/book?lock=4808791608206091",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Ad est necessitatibus architecto illo iusto.",
+        "author": "Abigail Wachenbrunner"
+      },
+      {
+        "review": "Id provident sunt.",
+        "author": "Clarissa Philipp"
+      },
+      {
+        "review": "Neque nihil tempora soluta sed perferendis.",
+        "author": "Mieke Viellehner"
+      },
+      {
+        "review": "In quaerat quae sequi dolorum deserunt.",
+        "author": "Melisa Rädler"
+      },
+      {
+        "review": "Molestias hic ea sunt eius.",
+        "author": "Darleen Kühnert"
+      }
+    ]
+  },
+  {
+    "isbn": "749a602e-8d63-41cc-97fd-88218e11f92b",
+    "title": "Suscipit quibusdam perferendis qui",
+    "author": "Liana Rach",
+    "publisher": "Hilgendorf, Friedmann und Hetzler",
+    "year": 2016,
+    "image": "https://loremflickr.com/2054/3158/book?lock=941508712712801",
+    "likes": 1,
+    "reviews": [
+      {
+        "review": "Mollitia praesentium aut assumenda optio dolor nihil.",
+        "author": "Andreas Normann"
+      },
+      {
+        "review": "Veritatis voluptatem incidunt praesentium.",
+        "author": "Dilara Kinzel"
+      },
+      {
+        "review": "Debitis necessitatibus molestias quo suscipit eligendi facilis a quas.",
+        "author": "Ecrin Ahlke"
+      },
+      {
+        "review": "Itaque quam repudiandae aliquam.",
+        "author": "Anna Neubauer"
+      },
+      {
+        "review": "Voluptates fuga officia beatae.",
+        "author": "Karlotta Hinrichs"
+      }
+    ]
+  }
+]
